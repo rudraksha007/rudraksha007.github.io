@@ -1,0 +1,45 @@
+#notes {
+    width: 100%;
+    padding-top: 40px;
+}
+
+#note {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#data-control{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#data-control select{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    
+}
+
+#data-control select::after {
+    content: "\25BC"; /* Unicode for a downward arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.rule-control{
+    margin: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+.rule-control:active{
+    background-color: rgb(235, 235, 235);
+}

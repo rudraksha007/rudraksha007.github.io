@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisdom Wise</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="./navstyle.css" id="nav1">
+    <link rel="stylesheet" href="../statics/navstyle.css" id="nav2">
+    <link rel="stylesheet" href="./slideshow.css">
+    <link rel="stylesheet" href="rule.css">
+    <link rel="stylesheet" href="links.css">
+</head>
+
+<body>
+    <div id="transition"></div>
+    <div id="container">
+        <a href="/Landing%20Page/landing.html"><img src="../statics/logo.png" alt="Your Image" id="logo"></a>
+        <div id="name">
+            <span id="school-title">Wisdom</span>
+            <span id="school-title-2">Wise School</span>
+        </div>
+    </div>
+    <div id="slideshow-container">
+
+        <div class="mySlide">
+            <img src="../statics/1.jpg" class="mySlideImg">
+        </div>
+
+        <div class="mySlide">
+            <img src="../statics/2.jpg" class="mySlideImg">
+        </div>
+
+        <div class="mySlide">
+            <img src="../statics/3.jpg" class="mySlideImg">
+        </div>
+
+        <div class="mySlide">
+            <img src="../statics/4.jpg" class="mySlideImg">
+        </div>
+
+        <div class="mySlide">
+            <img src="../statics/5.jpg" class="mySlideImg">
+        </div>
+
+        <div class="mySlide">
+            <img src="../statics/6.jpg" class="mySlideImg">
+        </div>
+
+
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot active" onclick="show(0)"></span>
+        <span class="dot" onclick="show(1)"></span>
+        <span class="dot" onclick="show(2)"></span>
+        <span class="dot" onclick="show(3)"></span>
+        <span class="dot" onclick="show(4)"></span>
+        <span class="dot" onclick="show(5)"></span>
+    </div>
+    <div id="rules">
+        <div class="rule-container">
+            <div id="imgPart">
+                <img src="../statics/clock.png" alt="" class="ruleIcon"> <br>
+                <img src="../statics/parent.png" alt="" class="ruleIcon"> <br>
+                <img src="../statics/admission.png" alt="" class="ruleIcon"> <br>
+                <img src="../statics/school.png" alt="" class="ruleIcon"> <br>
+            </div>
+
+            <div id="textPart">
+                <div class="ruleText">
+                    <h1>School Timings</h1>
+                    <ul>
+                        <li>Students who utilize the school transport services must ensure they are at their
+                            designated
+                            pick-up points at least 10 minutes before the scheduled pick-up time </li>
+                            <li>
+                                Students who travel to school using their own means of transportation, should plan their
+                                journey
+                                to ensure they arrive at school at least 15 minutes before the start of the first class.
+                            </li>
+                            <li>
+                                Punctuality is a shared responsibility between students and parents. Parents are
+                                encouraged
+                                to
+                                support their children in developing good time management habits
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ruleText">
+                        <h1>Parental Counsel</h1>
+                    <ul>
+                        <li>Parents play a vital role in helping students develop good habits that contribute to
+                            their overall well-being and success. </li>
+                            <li>
+                                Encouraging diligence in students is a shared responsibility. Parents can support their
+                                children by providing a conducive environment for studying.
+                            </li>
+                            <li>
+                                Parents are encouraged to actively participate in school events, parent-teacher
+                                meetings, and other activities that foster a strong school community.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ruleText">
+                        <h1>Admissions</h1>
+                        <ul>
+                            <li>
+                                Students must carry their identity card, which includes the latest photograph of the student
+                                in their school. 
+                            </li>
+                            <li>
+                                The school diary is a vital tool for communication between the school and parents. It
+                                contains important information like the timetable, homeworks and notices from the school
+                            </li>
+                            <li>
+                                It is the responsibility of both students and parents to ensure that these items are brought
+                                to school daily as the student will not be allowed to attend the school without these
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ruleText">
+                        <h1>General Rules</h1>
+                    <ul>
+                        <li>
+                            Students are expected to exhibit disciplined behavior at all time.This includes adhering to
+                            school rules, being punctual, and showing respect to everyone
+                        </li>
+                        <li>
+                            Students should carry themselves with dignity and integrity, embodying the school’s ethos in
+                            their daily interactions.
+                        </li>
+                        <li>
+                            As representatives of Wisdom Wise School, students should strive to be role models for their
+                            peers and younger students. This involves setting a positive example through their behavior
+                            and academic efforts.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rule-controls">
+                <img src="../statics/arrow.png" alt="" width="50px" class="rule-control" id="up"
+                onclick="switchRule(-1)">
+                <img src="../statics/arrow.png" alt="" width="50px" class="rule-control" id="down"
+                onclick="switchRule(1)">
+            </div>
+        </div>
+    </div>
+    <div id="rules-holder"></div>
+    <div id="links">
+        <div class="linkbox">
+            <img src="../statics/result.png" alt="">
+            <a href="../Alumni/alumni.html">Our Results</a>
+        </div>
+        <div class="linkbox">
+            <img src="../statics/gallery.png" alt="">
+            <a href="../Gallery/gallery.html">Gallery</a>
+        </div>
+        <div class="linkbox">
+            <img src="../statics/virtualTour.png" alt="">
+            <a href="../Tour/tour.html">Virtual Tour</a>
+        </div>
+        <div class="linkbox">
+            <img src="../statics/facilities.png" alt="">
+            <a href="../Faculty/faculty.html">Faculties</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

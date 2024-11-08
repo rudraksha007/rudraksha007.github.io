@@ -1,0 +1,14 @@
+{
+    "Nursery": 
+        [3, ["Birth Certificate","Two latest PP size photos","Aadhar Card ( Student, Father, Mother)","Blood Group Certificate"],"Interaction with students and parents"],
+    "L.K.G":
+        [4,	["Birth Certificate","Two latest PP size photos","Aadhar Card ( Student, Father, Mother)","Blood Group Certificate"],"Interaction with students and parents"],
+    "UKG": 
+        [4, ["Birth Certificate","Two latest PP size photos","Aadhar Card ( Student, Father, Mother)","Blood Group Certificate"],"Interaction with students and parents"],
+    "I – IX":
+        [5, ["Performance Card of class last attended","Birth Certificate","Two latest PP size Photos","School leaving certificate from school last attended","Aadhar Card ( Student, Father, Mother)"], "Entrance Exam"],
+    "XI":
+        [2, ["latest PP size photos","Class X result card","Pre-board result card (Any board)","School leaving certificate from school last attended.","Aadhar Card ( Student, Father, Mother)"], "Entrance Exam"],
+    "XII":
+        [2, ["latest PP size photos","Class X result card","Pre-board result card (Any board)","School leaving certificate from school last attended.","Aadhar Card ( Student, Father, Mother)"], "Entrance Exam"]
+}
