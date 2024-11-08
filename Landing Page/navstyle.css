@@ -12,13 +12,17 @@
 }
 
 #logo {
-    width: 90vh;
+    width: 40vw;
     min-width: 100px;
     max-width: 50vh;
     aspect-ratio: 1;
     margin: 10px;
 }
-
+@media (max-width:610px) {
+    #logo{
+        width: 20vw;
+    }
+}
 #name {
     margin: auto;
 }

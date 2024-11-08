@@ -1,10 +1,13 @@
 document.getElementById('nav2').disabled = true;
+window.addEventListener('touchmove', change)
 window.addEventListener('scroll', change);
 function change() {
+    console.log('scroll')
     trans = document.getElementById('transition');
     trans.display = 'block';
     trans.style.opacity = 1;
     window.removeEventListener('scroll', change);
+    window.removeEventListener('touchmove', change);
 
     setTimeout(() => {
         document.getElementById('nav2').disabled = false;
