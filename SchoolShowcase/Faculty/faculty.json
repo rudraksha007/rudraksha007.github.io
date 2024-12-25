@@ -1,0 +1,462 @@
+{
+    "Coordinators": {
+        "icon": "coord.webp",
+        "faculties": {
+            "Mrs. Sawinder Kaur": {
+                "designation": "Sr. Coordinator",
+                "qualification": "M.Sc. (Zool.), B.Ed."
+            },
+            "Mrs. Surbhi Bhardwaj": {
+                "designation": "Academic Coordinator",
+                "qualification": "M.Sc. (Chem.), B.Ed."
+            },
+            "Mrs. Aparna Gupta": {
+                "designation": "Wing Coordinator",
+                "qualification": "B.Sc. (Non.-Med.), Dip.in Fashion Designing"
+            },
+            "Mrs. Sarika Pathania": {
+                "designation": "Wing Coordinator",
+                "qualification": "M.Com, D.El.Ed., NTT"
+            },
+            "Mrs. Neetu Chopra": {
+                "designation": "Wing Coordinator",
+                "qualification": "M.A. (Eco.), NTT, B.Ed."
+            },
+            "Mrs. Sheenu Sharma": {
+                "designation": "Wing Coordinator",
+                "qualification": "M.A. (Hindi), B.Ed."
+            },
+            "Mrs. Nidhi Malhotra": {
+                "designation": "Examination Head",
+                "qualification": "M.C.A., B.Ed."
+            }
+        }
+    },
+    "Department of English": {
+        "icon": "eng.webp",
+        "faculties": {
+            "Mrs. Meena Kashyap (H.O.D.)": {
+                "designation": "NA",
+                "qualification": "M.A. (Eng.) B.Ed."
+            },
+            "Mrs. Avneet Kaur": {
+                "designation": "NA",
+                "qualification": "M.A. (Eng.), M.A. (Eco.), B.Ed."
+            },
+            "Mrs. Jasmeet Kaur": {
+                "designation": "NA",
+                "qualification": "M.A. (Eng.), B.Ed., CTET Qualified"
+            },
+            "Mrs. Silky": {
+                "designation": "NA",
+                "qualification": "M.A. (Eng.) M.Phil., B.Ed."
+            },
+            "Mrs. Ravinder Kaur Saini": {
+                "designation": "NA",
+                "qualification": "B.A., B.Ed."
+            },
+            "Ms. Neha Chopra": {
+                "designation": "NA",
+                "qualification": "M.A. (Eng.), B.Ed."
+            }
+        }
+    },
+    "Department of Maths": {
+        "icon": "maths.png",
+        "faculties": {
+            "Mr. Naresh Kapoor (H.O.D.)": {
+                "designation": "NA",
+                "qualification": "M.Sc. (Maths) B.Ed., CTET, PTET Qualified"
+            },
+            "Mrs. Maninderjit Kaur Saini": {
+                "designation": "NA",
+                "qualification": "M.Sc. (Maths), B.Ed, M.ED, CTET, PTET Qualified"
+            },
+            "Mrs. Nisha Puri": {
+                "designation": "NA",
+                "qualification": "M.Sc. (Maths), B.Ed."
+            },
+            "Mrs. Manvinder Kaur": {
+                "designation": "NA",
+                "qualification": "M.Com., B.Ed."
+            },
+            "Ms. Suman Sharma": {
+                "designation": "NA",
+                "qualification": "B.Sc. (Non-Med.), M.A. (Eng.), B.Ed."
+            },
+            "Mrs. Neetu Gupta": {
+                "designation": "NA",
+                "qualification": "B.Sc. (Eco.), B.Ed."
+            },
+            "Ms. Ruchi Setia": {
+                "designation": "NA",
+                "qualification": "B.Sc. (Non.-Med.), B.Ed."
+            }
+        }
+    },
+    "Department of Science": {
+        "icon": "science.png",
+        "faculties": {
+            "Mrs. Surbhi Bhardwaj (H.O.D.)": {
+                "designation": "NA",
+                "qualification": "M.Sc. (Chem.), B.Ed., CTET Qualified"
+            },
+            "Mr. Kamal Singh": {
+                "designation": "NA",
+                "qualification": "M.Sc. (Phy.), B.Ed., M.Tech."
+            },
+            "Ms. Rashim Verma": {
+                "designation": "NA",
+                "qualification": "B.Sc. (Comp.Sci.), B.Ed., D.C.A."
+            }
+        }
+    },
+    "Department of S.St.": {
+        "icon": "sst.png",
+        "faculties": {
+            "Mrs. Priya Seth (H.O.D.)": {
+                "designation": "NA",
+                "qualification": "B.A. (Arts), B.Ed."
+            },
+            "Ms. Sonika Kapur": {
+                "designation": "NA",
+                "qualification": "M.A. (Eco.), B.Ed."
+            },
+            "Mrs. Amritpal Kaur": {
+                "designation": "NA",
+                "qualification": "B.A. (Arts), B.Ed., L.Lb., L.Lm., PTET, UGC-NET Qualified"
+            },
+            "Mrs. Manju Puri": {
+                "designation": "NA",
+                "qualification": "M.A. (Eco.), B.Ed."
+            },
+            "Mr. Manjit Kumar": {
+                "designation": "NA",
+                "qualification": "M.A. (Pol.Sci.), B.Ed., PTET Qualified"
+            }
+        }
+    },
+    "Department of Hindi": {
+        "icon": "hindi.png",
+        "faculties": {
+            "Mrs. Megha Soni (H.O.D.)": {
+                "designation": "NA",
+                "qualification": "M.A. (Hindi), B.Ed."
+            },
+            "Ms. Pratibha Sharma": {
+                "designation": "NA",
+                "qualification": "M.A. (Hindi), M.A. (Pol.Sci.), B.Ed."
+            },
+            "Ms. Shilpi Saili": {
+                "designation": "NA",
+                "qualification": "M.A. (Eco.), M.A. (Hin.), B.Ed."
+            },
+            "Mrs. Rosy Kalia": {
+                "designation": "NA",
+                "qualification": "M.A. (Hindi), B.Ed."
+            },
+            "Mrs. Bandana Devi": {
+                "designation": "NA",
+                "qualification": "M.A. (Hindi), B.Ed., M.Phil."
+            },
+            "Ms. Kavita Chauhan": {
+                "designation": "NA",
+                "qualification": "M.A. (Hin.), B.Ed."
+            }
+        }
+    },
+    "Department of Punjabi": {
+        "icon": "punjabi.png",
+        "faculties": {
+            "Mrs. Manpreet Kaur (H.O.D.)": {
+                "designation": "NA",
+                "qualification": "M.A. (Pbi.), M.A. (Hist.), B.Ed."
+            },
+            "Mrs. Mamta Rani": {
+                "designation": "NA",
+                "qualification": "M.A. (Pbi.), B.Ed."
+            },
+            "Mrs. Mandeep Phull": {
+                "designation": "NA",
+                "qualification": "M.A. (Pbi.), M.A. (Eco.), N.T.T., B.Ed."
+            }
+        }
+    },
+    "Department of Commerce": {
+        "icon": "commerce.png",
+        "faculties": {
+            "Dr. Anu Bhatia (H.O.D.)": {
+                "designation": "Accountancy",
+                "qualification": "M.Com., B.Ed., M.Phil, Ph.D"
+            },
+            "Mrs. Rubal Shangari": {
+                "designation": "Accountancy and Marketing",
+                "qualification": "M.Com, B.Ed."
+            },
+            "Dr. Anu Bhatia": {
+                "designation": "Business Studies",
+                "qualification": "M.Com., B.Ed., M.Phil, Ph.D"
+            },
+            "Ms. Anuradha Pandey": {
+                "designation": "Economics",
+                "qualification": "M.A. (Eco.), B.Ed., CTET Qual."
+            },
+            "Ms. Kanwaljit Kaur": {
+                "designation": "Political Science",
+                "qualification": "M.A. (Hist.), M.A. (Pol.Sci.), B.Ed."
+            },
+            "Mrs. Amritpal Kaur": {
+                "designation": "Sociology",
+                "qualification": "B.A. (Arts), B.Ed., L.Lb., L.Lm., PTET Qualified"
+            }
+        }
+    },
+    "Department of Computer Science": {
+        "icon": "cs.png",
+        "faculties": {
+            "Ms. Amarpreet Kaur (H.O.D.)": {
+                "designation": "Deptt. of Computer Science",
+                "qualification": "B.Com, PGDCA, M.Sc.(IT)"
+            },
+            "Ms. Deepti Sharma": {
+                "designation": "Deptt. of Computer Science",
+                "qualification": "B.Com. (Prof.), M.Sc. (IT), PGDCA, B.Ed."
+            },
+            "Mrs. Suruchi Mahendru": {
+                "designation": "Deptt. of Computer Science",
+                "qualification": "M.Sc. (IT), M.C.A., B.Ed., CTET Quali"
+            }
+        }
+    },
+    "Department of Music": {
+        "icon": "music.png",
+        "faculties": {
+            "Mrs. Preeti Kuckreja (H.O.D.)": {
+                "designation": "Deptt. of Music",
+                "qualification": "M.A. (Music – Vocal)"
+            },
+            "Mr. Mohandeep Bawra": {
+                "designation": "Deptt. of Music",
+                "qualification": "M.A. (Music – Vocal), M.Phil. (Music-Vocal)"
+            },
+            "Mr. Om Parkash": {
+                "designation": "Deptt. of Music",
+                "qualification": "Harmonium"
+            },
+            "Mr. Arminder Singh": {
+                "designation": "Deptt. of Music",
+                "qualification": "Tabla Player"
+            },
+            "Mr. Gurkirat Singh": {
+                "designation": "Deptt. of Music",
+                "qualification": "Guitarist"
+            }
+        }
+    },
+    "Department of Dance": {
+        "icon": "dance.png",
+        "faculties": {
+            "Ms. Seema Pandey (H.O.D.)": {
+                "designation": "Deptt. of Dance",
+                "qualification": "M.A. (Hist.), P.G. in Dance, B.Ed."
+            },
+            "Ms. Kajal Sharma": {
+                "designation": "Deptt. of Dance",
+                "qualification": "M.A. (Dance)"
+            },
+            "Ms. Sangeeta Kohli": {
+                "designation": "Deptt. of Dance",
+                "qualification": "M.A. (Dance)"
+            }
+        }
+    },
+    "Department of Fine Arts": {
+        "icon": "sports.png",
+        "faculties": {
+            "Dr. Pradeep Kumar Singh (H.O.D.)": {
+                "designation": "Deptt. of Sports",
+                "qualification": "M.P.Ed., Ph.D."
+            },
+            "Ms. Balwinder Kaur": {
+                "designation": "Deptt. of Sports",
+                "qualification": "B.P.Ed., M.A. (Pbi.), B.Ed., CTET Qualified."
+            },
+            "Ms. Rosy Lakhi": {
+                "designation": "Deptt. of Sports",
+                "qualification": "B.A. (Arts), Black Belt in Taikwandoo"
+            }
+        }
+    },
+    "Student Counsellors": {
+        "icon": "counsellor.png",
+        "faculties": {
+            "Ms. Neha Malhotra": {
+                "designation": "Student’s Counsellors",
+                "qualification": "M.A. (Applied Psychology)"
+            }
+        }
+    },
+    "Other Teachers": {
+        "icon": "teacher.webp",
+        "faculties": {
+            "Ms. Shreya Punchi": {
+                "designation": "Other Teachers",
+                "qualification": "M.Com., B.Ed."
+            },
+            "Mrs. Yogita Kapoor": {
+                "designation": "Other Teachers",
+                "qualification": "B.A., D.Ed., M.Sc.(IT)"
+            },
+            "Mrs. Parveen Kumari": {
+                "designation": "Other Teachers",
+                "qualification": "M.A. (Eco.), N.T.T., B.Ed."
+            },
+            "Mrs. Shikha Narang": {
+                "designation": "Other Teachers",
+                "qualification": "B.A., NTT, B.Ed."
+            },
+            "Mrs. Tajinder Kaur": {
+                "designation": "Other Teachers",
+                "qualification": "M.A.(Hin.), B.Ed., NTT"
+            },
+            "Mrs. Anita Seth": {
+                "designation": "Other Teachers",
+                "qualification": "M.A. (Pbi.), B.Ed."
+            },
+            "Mrs. Amrit Kaur": {
+                "designation": "Other Teachers",
+                "qualification": "M.A. (Pol.Sci.), B.Ed., CTET Qualified."
+            },
+            "Mrs. Vanita Kapoor": {
+                "designation": "Other Teachers",
+                "qualification": "M.Sc. (Maths), B.Ed."
+            },
+            "Mrs. Sandeep Kaur": {
+                "designation": "Other Teachers",
+                "qualification": "B.Com., B.Ed., P.G. in Mass Communication & Journal, M.Sc. (Maths)"
+            },
+            "Ms. Isha Talwar": {
+                "designation": "Other Teachers",
+                "qualification": "M.A. (Fine Arts), M.A. (History of Arts), B.Ed."
+            },
+            "Mrs. Archana Anand": {
+                "designation": "Other Teachers",
+                "qualification": "M.Com., B.Ed."
+            },
+            "Mrs. Pankaj Kumari": {
+                "designation": "Other Teachers",
+                "qualification": "M.Sc. (Bio-Chem.), B.Ed."
+            },
+            "Mrs. Jaskaran Kaur": {
+                "designation": "Other Teachers",
+                "qualification": "M.A. (Pbi.), M.A. (Eng.), M.A.(Hindi)., B.Ed., CTET Quali."
+            },
+            "Ms. Aanchal Mehra": {
+                "designation": "Other Teachers",
+                "qualification": "M.Com., B.Ed."
+            },
+            "Mrs. Pooja Sharma": {
+                "designation": "Other Teachers",
+                "qualification": "M.A. (Eco.), P.T.T."
+            },
+            "Mr. Narpinder Singh": {
+                "designation": "Other Teachers",
+                "qualification": "B.A., P.G. Diploma in Yogic Science"
+            },
+            "Mrs. Varinder Kaur": {
+                "designation": "Other Teachers",
+                "qualification": "M.Sc. (IT)"
+            }
+        }
+    },
+    "Pre-Primary Wing": {
+        "icon": "pre.png",
+        "faculties": {
+            "Ms. Bhawna Bawa": {
+                "designation": "Pre-primary Wing",
+                "qualification": "B.A., N.T.T., Dip. In Cosmetology, B.Ed"
+            },
+            "Ms. Monika Sharma": {
+                "designation": "Pre-primary Wing",
+                "qualification": "B.Com., N.T.T., Dip. In Fashion Designing"
+            },
+            "Ms. Anu Dhamija": {
+                "designation": "Pre-primary Wing",
+                "qualification": "M.A. (Hindi), N.T.T., B.Ed, CTT"
+            },
+            "Ms. Komal Gupta": {
+                "designation": "Pre-primary Wing",
+                "qualification": "M.A. (Hindi), N.T.T., B.Ed"
+            },
+            "Ms. Sannia Sharma": {
+                "designation": "Pre-primary Wing",
+                "qualification": "M.A.(English), N.T.T., B.Ed"
+            },
+            "Ms. Manju Jyoti": {
+                "designation": "Pre-primary Wing",
+                "qualification": "M.A. (History), M.A.(Hindi), B.Ed., Dip. Dress Designing"
+            },
+            "Mrs. Jyoti Rani": {
+                "designation": "Pre-primary Wing",
+                "qualification": "B.Com, PTT"
+            },
+            "Ms. Manjit Kaur": {
+                "designation": "Pre-primary Wing",
+                "qualification": "B.A, B.Ed, NTT"
+            },
+            "Ms. Annu Sharma": {
+                "designation": "Pre-primary Wing",
+                "qualification": "M.A.(Eco.), B.Ed."
+            },
+            "Ms. Riya Sharma": {
+                "designation": "Pre-primary Wing",
+                "qualification": "B.A"
+            },
+            "Mrs. Simarpreet Kaur": {
+                "designation": "Pre-primary Wing",
+                "qualification": "M.A., B.Ed."
+            },
+            "Mrs. Nitika Sharma": {
+                "designation": "Pre-primary Wing",
+                "qualification": "B.A., N.T.T."
+            },
+            "Mrs. Chandni": {
+                "designation": "Pre-primary Wing",
+                "qualification": "M.C.A."
+            },
+            "Mrs. Neha Chadha": {
+                "designation": "Pre-primary Wing",
+                "qualification": "M.A. (Fine Arts), N.T.T., B.Ed."
+            },
+            "Mrs. Ritika Sharma": {
+                "designation": "Pre-primary Wing",
+                "qualification": "B.A., N.T.T."
+            },
+            "Ms. Shama": {
+                "designation": "Pre-primary Wing",
+                "qualification": "B.A. JMC, N.T.T."
+            }
+        }
+    },
+    "Non-Teaching Staff": {
+        "icon": "non.png",
+        "faculties": {
+            "Mr. Honey Bawa": {
+                "designation": "Non-Teaching Staff",
+                "qualification": "M.Com., B.Ed., MBA"
+            },
+            "Mr. Vivek Sharma": {
+                "designation": "Non-Teaching Staff",
+                "qualification": "Hons. Dipl. In Comp. Sci."
+            },
+            "Mrs. Kanika Bhalla": {
+                "designation": "Non-Teaching Staff",
+                "qualification": "B.Com."
+            },
+            "Mr. Manoj Sharma": {
+                "designation": "Non-Teaching Staff",
+                "qualification": "M.C.A."
+            }
+        }
+    }
+}

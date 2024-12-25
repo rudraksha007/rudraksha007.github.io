@@ -1,0 +1,36 @@
+#links{
+    height: max(80vh, fit-content);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.linkbox{
+    height: 50vh;
+    width: 40vh;
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 2px 2px rgb(206, 204, 204);
+}
+.linkbox img{
+    height: 50%;
+}
+.linkbox a{
+    text-decoration: none;
+    color: white;
+    background-color: #002868;
+    padding: 10px;
+    border-radius: 10px;
+}
+.linkbox a:hover{
+    background-color: #074bb8;
+}
+.linkbox a:focus{
+    background-color: #021c48;
+}
