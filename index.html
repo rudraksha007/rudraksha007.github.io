@@ -4,23 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h3>This Site is being hosted for educational and testing purpose.</h3>
-    <p>Click the the link of any specific project below to continue to the actual wesite:</p>
-    <ol>
-        <li><a href="./SchoolShowcase/Landing%20Page/landing.html">School Showcase</a></li>
-        <li>
-            <p>
-            <h4>Winter Of Code Projects (Hands-On)</h4>
-            <ol type="a">
-                <li><a href="./WinterOfCode/Day1/MeoryMe.html">Day1: MeoryMe (HTML only page)</a></li>
-            </ol>
-            </p>
-        </li>
-    </ol>
+    <div id="container">
+        <header>
+            <h1 class="centerText">Welcome to My Portfolio</h1>
+            <p class="centerText">Full Stack Developer | Shakil's Follower | Node | React </p>
+        </header>
+        <main>
+            <section id="about">
+                <img src="profile.jpg" alt="" height="150px">
+                <div>
+                    <h2>About Me</h2>
+                    <p>
+                        I'm a Computer Science and Engineering student at Lovely Professional University 🎓. I’m passionate about web development and full stack technologies 💻. I’ve worked on various projects, including a school website 🏫 and a finance management system 💰. I’m always learning and excited to create innovative solutions 🌟.
+                    </p>
+                </div>
+            </section>
+            <section id="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">React.js</div>
+                <div class="skill">Mongo DB</div>
+            </section>
+            <section id="projects">
+                <h3>My Projects</h3>
+                <div id="projList">
+                    <div class="project">
+                        <h3>Wisdom Wise</h3>
+                        <p>Wisdom Wise is a responsive school website built with HTML, CSS, and JavaScript. Designed as a comprehensive digital platform, it showcases and administers various school functions, providing a seamless experience for students, parents, and faculty members.</p>
+                        <a href="./SchoolShowcase/Landing%20Page/landing.html" class="but">View Project</a>
+                    </div>
+                    <div class="project">
+                        <h3>Winter of Code</h3>
+                        <p>Winter of Code is an intensive 60-day bootcamp designed to immerse participants in full stack web development. The bootcamp covers a comprehensive range of technologies and tools, providing hands-on experience in building both front-end and back-end applications. It offers structured lessons, practical projects, and expert guidance from mentors like Shakil Ahmed and Rohit Singh to help participants sharpen their coding skills and prepare for real-world development challenges.</p>
+                        <a href="./WinterOfCode/Day1/MeoryMe.html" class="but">Day 1: MeoryMe</a>
+                        <a href="#" class="but">Day 2: Portfolio (This page)</a>
+                    </div>
+                </div>                
+            </section>
+        </main>
+        <footer>
+            <p class="centerText">Connect with Me on 
+                <a href="https://github.com/rudraksha007">Github</a> | 
+                <a href="https://www.linkedin.com/in/rudransh28">LinkedIn</a> </p>
+        </footer>
+    </div>
 </body>
 
 </html>
