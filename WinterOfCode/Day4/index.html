@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.cdnfonts.com/css/made-soulmaze" rel="stylesheet">
+  <title>Vite App</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-80%);
+      }
+
+    }
+
+    .marquee {
+      animation: marquee 10s linear infinite;
+    }
+  </style>
+</head>
+
+<body class="bg-[#0E231C]">
+  <header class="h-[10vh] absolute w-screen">
+    <nav class="flex justify-between items-center h-[100%] border-b-[1px] border-white px-[8%]">
+      <img src="./assets/logo.svg" alt="">
+      <ul class="text-white flex gap-10 items-center">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#" class="bg-white text-black px-[14px] py-[10px]">Join Us Now</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="w-screen">
+    <section id="page1" class="h-screen">
+      <div class="h-[90%] mx-[5%] border-x text-white flex justify-around items-center gap-8">
+        <div class="h-[100%] flex flex-col justify-center gap-8">
+          <div class="text-[90px] leading-none font-extrabold font-[Made Soulmaze]">
+            <h1>ONCHAIN</h1>
+            <h1 class="pl-40">SUMMER</h1>
+            <h1 class="pl-14">BUILDATHON</h1>
+          </div>
+          <p>
+            Ready to make your mark? Apply now and get ready for an unforgettable experience at OnHack Africa!
+          </p>
+          <div class="flex gap-4 items-center">
+            <a href="#" class="bg-white text-black px-3 py-3 flex gap-2">
+              <p>Become a Builder</p> <img src="./assets/arrowNE.svg" alt="">
+            </a>
+            <a href="#" class="text-gray-500">Know More</a>
+          </div>
+        </div>
+        <div class="h-screen flex items-end">
+          <img src="./assets/shapes.svg" height="60%" alt="">
+        </div>
+      </div>
+
+      <!-- Maquee -->
+      <div class="flex w-[100%] h-[10%] overflow-hidden">
+        <div class=" bg-[#C568DE] flex items-center font-[Made Soulmaze] text-white text-4xl font-extrabold marquee">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+        </div>
+
+        <div class="bg-[#C568DE] flex items-center font-[Made Soulmaze] text-white text-4xl font-extrabold marquee">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+          <p>CREATE</p><img src="./assets/star.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="h-[10vh] mt-5
+    ">
+      <img src="./assets/triangle.svg" alt="">
+    </section>
+
+    <section id="page2" class="bg-[#C568DE] p-20 flex flex-col justify-between gap-10">
+      <div class="flex items-center justify-between">
+        <h1 class="font-[Made Soulmaze] text-white text-4xl font-extrabold">
+          WHY <br>
+          PARTICIPATE?
+        </h1>
+        <a href="#" class="px-5 py-3 bg-white text-black">Participate Now</a>
+      </div>
+      <div class="w-[100%] grid grid-cols-3 gap-10 h-[75%]">
+        <div class="flex flex-col p-10 justify-between bg-[#0E231C] text-white h-[100%] items-center">
+          <img src="./assets/bounties.svg" alt="" width="90%">
+          <div>
+            <h1 class="font-[Made Soulmaze] font-extrabold">BOUNTIES</h1>
+            <p class="font-[Basis Grotesque Arabic Pro]">
+              Win exciting prizes, including cash rewards and incubation support.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-rows-2 gap-10">
+          <div class="bg-[#0E231C] flex justify-evenly items-center">
+            <img src="./assets/learning.svg" width="30%" alt="">
+            <div class="text-white w-[50%]">
+              <h1 class="font-[Made Soulmaze] font-extrabold">LEARNING</h1>
+              <p>
+                Gain new skills, receive mentorship, and collaborate with fellow innovators.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-[#0E231C] flex justify-evenly items-center">
+            <img src="./assets/networking.svg" width="30%" alt="">
+            <div class="text-white w-[50%]">
+              <h1 class="font-[Made Soulmaze] font-extrabold">NETWORKING</h1>
+              <p>
+                Connect with industry leaders, potential investors, and other participants.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="flex flex-col p-10 justify-between bg-[#0E231C] text-white h-[100%] items-center">
+          <img src="./assets/confetti.svg" alt="" width="90%">
+          <div>
+            <h1 class="font-[Made Soulmaze] font-extrabold">FUN</h1>
+            <p class="font-[Basis Grotesque Arabic Pro]">
+              Enjoy game nights, build lasting friendships, and be part of a vibrant community.
+            </p>
+          </div>
+        </div>
+    </section>
+    <section class="h-[10vh] flex flex-row-reverse items-center">
+      <img src="./assets/eclipse.svg" alt="" class="h-[400%]">
+    </section>
+
+    <section id="page2" class="h-screen w-screen flex flex-col items-center">
+      <img src="./assets/shapes2.svg" alt="" width="60%">
+      <div class="w-screen border-y border-white flex-1 flex justify-evenly pt-20">
+        <div class="w-[40%]">
+          <h1 class="font-[Made Soulmaze] text-white text-6xl font-extrabold">
+            FROM CREATIVES,<br>
+            FOR CREATIVES.
+          </h1>
+        </div>
+        <div
+          class="w-[40%] font-[Basis Grotesque Arabic Pro] text-white font-[20px]">
+          <div class="border-white border-2 p-8 flex flex-col gap-8">
+            <h1>SUBSCRIBE FOR UPDATES</h1>
+            <p class="w-[60%]">
+              Subscribe to OnHack and never miss a update and notification for Buildathon
+            </p>
+            <div class="flex gap-4">
+              <input type="text" placeholder="Enter your Email Address" class="bg-[#FFFFFF24] text-[#FFFFFF66] p-3 flex-1">
+              <button class="bg-white text-black px-5 py-3">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="w-screen p-5 flex justify-evenly text-[#FFFFFF75] font-[18px] font=[Basis Grotesque Arabic Pro]">
+      <a href="#">Terms & Conditions</a>
+      <p>©Copyright and All rights reserved</p>
+      <a href="#">Privacy Policy</a>
+    </footer>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
