@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+        #tasks>li{
+            display: grid;
+            grid-template-columns: 1fr 25fr 5fr 5fr 1fr;
+            gap: 1rem;
+            padding: 1rem;
+            border-bottom: 1px solid #e5e5e5;
+            background-color: white;
+            transition: transform 0.3s;
+            align-items: center;
+        }
+        #privates>#active{
+            background-color: #e5e5e5;
+        }
+        #privates>li{
+            padding: 0.8rem;
+            cursor: pointer;
+            border-top-left-radius: 1rem;
+            border-bottom-left-radius: 1rem;
+            height: 50px;
+        }
+        .hoverable{
+            transition: background-color 0.5s;
+            cursor: pointer;
+        }
+        #privates>li{
+            display: flex;
+            gap: 1rem;
+        }
+        #privates>li:hover>.del{
+            display: block;
+        }
+        .hoverable:hover, #privates>li:hover{
+            opacity: 0.8;
+        }
+        .del{
+            transition: all 0.5s;
+            display: none;
+        }
+        .del:hover{
+            background-color: white;
+        }
+        .completed{
+            filter: brightness(50%);
+        }
+
+    </style>
+</head>
+<body class="h-screen w-screen overflow-hidden">
+    <main class="min-h-screen w-screen flex bg-[#e5e5e5] p-2">
+        <div class="max-h-screen w-[25%] pl-3 pt-6 bg-white">
+            <div>
+                <h1 class="text-2xl font-bold">Private</h1>
+                <ul id="privates" class="">
+                    <li id="active" class="hoverable category" category="all">
+                        <img src="assets/all.svg" alt="">
+                        <p class="flex-1">All</p>
+                    </li>
+                    <li class="hoverable category" category="scheduled">
+                        <img src="assets/timed.svg" alt="">
+                        <p class="flex-1">Scheduled</p>
+                    </li>
+                    <li class="hoverable" id="addCategory">
+                        <img src="assets/add.svg" alt="">
+                        <p class="flex-1">Add</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <input type="checkbox"> -->
+        <div class="max-h-[90vh] w-[75%] px-14 py-7 overflow-y-auto">
+            <div class="w-[100%] flex justify-between mb-4">
+                <!-- head of element -->
+                 <div>
+                    <!-- gm and date -->
+                    <p class="text-2xl font-bold">Good Morning, Rudr</p>
+                    <p class="text-gray-500">2 Jan 2025</p>
+                </div>
+                 <div>
+                    <!-- filters -->
+                     <select name="date" id="">
+                        <option value="today">Today</option>
+                        <option value="today">Tommorrow</option>
+                     </select>
+                 </div>
+            </div>
+            <ul id="tasks" class="flex flex-col gap-1">
+            </ul>
+        </div>
+        <div class="h-[6vh] w-[40%] bg-black text-white px-5 absolute bottom-3 left-[50%] transform -translate-x-1/2 flex items-center justify-center rounded-2xl hoverable" id="newTaskButton">
+            <!-- new task div -->
+             New Task
+        </div>
+        <form id="newTask" class="w-[40%] bg-white p-5 absolute bottom-3 left-[50%] top-[100%] transform -translate-x-1/2 rounded-2xl transition-transform duration-700 h-[40%] grid grid-cols-2 overflow-y-auto auto-rows-[minmax(auto,30px)] gap-2 pt-16">
+            <img src="assets/cross.svg" alt="" height="28px" class="absolute top-3 right-3 hoverable h-7" id="closeIcon">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" class="bg-[#e5e5e5] p-2" placeholder="Enter task title">
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description" class="bg-[#e5e5e5] p-2" placeholder="Enter task description">
+            <label for="isCollab">Collab?</label>
+            <input type="checkbox" name="isCollab" id="isCollab">
+            <label for="deadline">Due Date</label>
+            <input type="date" name="deadline" id="deadline" class="bg-[#e5e5e5] p-2">
+            <label for="category">Category</label>
+            <select name="category" id="categorySelect">
+                <option value="">None</option>
+            </select>
+        </form>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

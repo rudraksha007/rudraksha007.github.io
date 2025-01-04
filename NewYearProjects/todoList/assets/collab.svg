@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
+  <!-- First Profile Icon -->
+  <circle cx="50" cy="50" r="30" fill="#6ba3ff" stroke="#000" stroke-width="2"/>
+  <circle cx="50" cy="45" r="12" fill="#fff"/>
+  <ellipse cx="50" cy="65" rx="15" ry="8" fill="#fff"/>
+
+  <!-- Second Profile Icon -->
+  <circle cx="80" cy="50" r="30" fill="#85e085" stroke="#000" stroke-width="2"/>
+  <circle cx="80" cy="45" r="12" fill="#fff"/>
+  <ellipse cx="80" cy="65" rx="15" ry="8" fill="#fff"/>
+
+  <!-- Third Profile Icon -->
+  <circle cx="110" cy="50" r="30" fill="#f8b26a" stroke="#000" stroke-width="2"/>
+  <circle cx="110" cy="45" r="12" fill="#fff"/>
+  <ellipse cx="110" cy="65" rx="15" ry="8" fill="#fff"/>
+</svg>
